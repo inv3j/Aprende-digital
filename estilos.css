@@ -1,0 +1,305 @@
+/* ============================================================
+   CHEF GABI SNACK ACADEMY — sistema de diseño
+   Paleta: "boleta de cocina" — cereza, mostaza, cacao, crema, salvia
+   ============================================================ */
+
+:root {
+  --crema: #FBF3E7;
+  --crema-osc: #F1E4CF;
+  --cereza: #C1382F;
+  --cereza-osc: #8E2822;
+  --mostaza: #E8A93B;
+  --cacao: #3B2A24;
+  --salvia: #7C9473;
+
+  --display: 'Baloo 2', system-ui, sans-serif;
+  --body: 'Work Sans', system-ui, sans-serif;
+  --mono: 'Space Mono', monospace;
+
+  --radio: 18px;
+  --sombra: 0 10px 30px rgba(59, 42, 36, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--crema);
+  color: var(--cacao);
+  font-family: var(--body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 3px solid var(--salvia);
+  outline-offset: 3px;
+}
+
+.envoltura {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Encabezado ---------- */
+.topbar {
+  padding: 20px 0;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--cereza-osc);
+  text-decoration: none;
+}
+
+.marca span.punto {
+  color: var(--mostaza);
+}
+
+/* ---------- Hero: boleta de cocina ---------- */
+.hero {
+  padding: 40px 0 70px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; padding-bottom: 40px; }
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cereza);
+  background: rgba(193, 56, 47, 0.08);
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-family: var(--display);
+  font-size: clamp(38px, 5.5vw, 62px);
+  line-height: 1.03;
+  margin: 0 0 20px;
+  color: var(--cacao);
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--cereza);
+  position: relative;
+}
+
+.hero p.lead {
+  font-size: 18px;
+  max-width: 46ch;
+  color: #5c4a42;
+  margin: 0 0 28px;
+}
+
+.acciones { display: flex; gap: 14px; flex-wrap: wrap; }
+
+.boton {
+  font-family: var(--body);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 14px 26px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.boton:hover { transform: translateY(-2px); }
+
+.boton-primario {
+  background: var(--cereza);
+  color: var(--crema);
+  box-shadow: var(--sombra);
+}
+
+.boton-primario:hover { background: var(--cereza-osc); }
+
+.boton-secundario {
+  background: transparent;
+  color: var(--cacao);
+  border: 2px solid var(--cacao);
+}
+
+/* ---------- Boleta / ticket visual (elemento firma) ---------- */
+.boleta {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: var(--sombra);
+  padding: 28px 26px 32px;
+  position: relative;
+  transform: rotate(-2deg);
+  font-family: var(--mono);
+}
+
+.boleta::before {
+  content: "";
+  position: absolute;
+  top: -9px; left: 24px; right: 24px;
+  height: 18px;
+  background:
+    radial-gradient(circle at 12px 9px, transparent 9px, #fff 10px) repeat-x;
+  background-size: 24px 18px;
+}
+
+.boleta .titulo-boleta {
+  font-family: var(--display);
+  font-size: 20px;
+  color: var(--cereza-osc);
+  margin: 0 0 4px;
+}
+
+.boleta .sub-boleta {
+  font-size: 12px;
+  color: #9a8a80;
+  margin: 0 0 18px;
+  border-bottom: 2px dashed var(--crema-osc);
+  padding-bottom: 16px;
+}
+
+.boleta ul { list-style: none; padding: 0; margin: 0; }
+
+.boleta li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 7px 0;
+  border-bottom: 1px dashed var(--crema-osc);
+}
+
+.boleta li:last-child { border-bottom: none; }
+
+.boleta .num { color: var(--mostaza); font-weight: 700; }
+
+/* ---------- Ingredientes / tags ---------- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 30px 0 0;
+}
+
+.tag {
+  font-size: 13px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--crema-osc);
+  color: var(--cacao);
+}
+
+/* ---------- Índice de clases (numerado, sí es secuencia real) ---------- */
+.seccion { padding: 60px 0; }
+
+.seccion h2 {
+  font-family: var(--display);
+  font-size: clamp(28px, 4vw, 38px);
+  margin: 0 0 8px;
+}
+
+.seccion .desc {
+  color: #5c4a42;
+  max-width: 60ch;
+  margin: 0 0 36px;
+}
+
+.lista-clases {
+  display: grid;
+  gap: 14px;
+}
+
+.clase {
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  border-radius: var(--radio);
+  padding: 18px 22px;
+  box-shadow: 0 4px 14px rgba(59, 42, 36, 0.06);
+}
+
+.clase .indice {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--mostaza);
+  text-align: center;
+}
+
+.clase h3 {
+  font-family: var(--display);
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+
+.clase p {
+  margin: 0;
+  font-size: 14px;
+  color: #7a6a60;
+}
+
+.clase .estado {
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.estado.disponible { background: rgba(124, 148, 115, 0.15); color: var(--salvia); }
+.estado.bloqueada { background: rgba(59, 42, 36, 0.08); color: #9a8a80; }
+
+/* ---------- Reproductor de clase (página de acceso) ---------- */
+.video-envoltura {
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: var(--radio);
+  overflow: hidden;
+  background: var(--cacao);
+  box-shadow: var(--sombra);
+}
+
+.video-envoltura iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  border: 0;
+}
+
+/* ---------- Footer ---------- */
+.pie {
+  padding: 40px 0;
+  border-top: 2px dashed var(--crema-osc);
+  color: #9a8a80;
+  font-size: 13px;
+  text-align: center;
+}
