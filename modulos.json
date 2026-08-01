@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "titulo": "Recetario",
+    "clases": [
+      {
+        "id": 1,
+        "titulo": "Bienvenida y mise en place",
+        "descripcion": "Organiza tu cocina y tus ingredientes antes de arrancar.",
+        "driveId": "171Tn9x9Iq3cPDqilK5AJ_jqqiNLABMen",
+        "duracion": "8 min"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Masas y Cremas",
+    "clases": [
+      {
+        "id": 1,
+        "titulo": "PON_AQUI_EL_TITULO",
+        "descripcion": "PON_AQUI_LA_DESCRIPCION",
+        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
+        "duracion": "PON_AQUI_LA_DURACION"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Bocaditos Dulces",
+    "clases": [
+      {
+        "id": 1,
+        "titulo": "PON_AQUI_EL_TITULO",
+        "descripcion": "PON_AQUI_LA_DESCRIPCION",
+        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
+        "duracion": "PON_AQUI_LA_DURACION"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Bocaditos Salados",
+    "clases": [
+      {
+        "id": 1,
+        "titulo": "PON_AQUI_EL_TITULO",
+        "descripcion": "PON_AQUI_LA_DESCRIPCION",
+        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
+        "duracion": "PON_AQUI_LA_DURACION"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Bonos",
+    "clases": [
+      {
+        "id": 1,
+        "titulo": "PON_AQUI_EL_TITULO",
+        "descripcion": "PON_AQUI_LA_DESCRIPCION",
+        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
+        "duracion": "PON_AQUI_LA_DURACION"
+      }
+    ]
+  }
+]
