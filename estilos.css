@@ -284,6 +284,98 @@ a { color: inherit; }
 .estado.disponible { background: rgba(124, 148, 115, 0.15); color: var(--salvia); }
 .estado.bloqueada { background: rgba(59, 42, 36, 0.08); color: #9a8a80; }
 
+/* ---------- Aula por módulos ---------- */
+.aula-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+@media (max-width: 780px) {
+  .aula-layout { grid-template-columns: 1fr; }
+}
+
+.panel-modulos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: sticky;
+  top: 20px;
+}
+
+.modulo-tab {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--crema-osc);
+  border: none;
+  border-left: 6px solid transparent;
+  border-radius: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--body);
+  color: var(--cacao);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.modulo-tab:hover { transform: translateX(2px); }
+
+.modulo-tab .num-modulo {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: #9a8a80;
+  min-width: 22px;
+}
+
+.modulo-tab .info-modulo { flex: 1; }
+
+.modulo-tab .titulo-modulo {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+}
+
+.modulo-tab .cuenta-modulo {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: #9a8a80;
+}
+
+.modulo-tab.activo {
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(59, 42, 36, 0.1);
+}
+
+.modulo-tab:nth-child(5n+1).activo { border-left-color: var(--cereza); }
+.modulo-tab:nth-child(5n+2).activo { border-left-color: var(--mostaza); }
+.modulo-tab:nth-child(5n+3).activo { border-left-color: var(--salvia); }
+.modulo-tab:nth-child(5n+4).activo { border-left-color: var(--cereza-osc); }
+.modulo-tab:nth-child(5n+5).activo { border-left-color: #B08A2E; }
+
+.contenido-modulo h2 {
+  font-family: var(--display);
+  font-size: clamp(24px, 3.4vw, 32px);
+  margin-bottom: 4px;
+}
+
+.contenido-modulo .cuenta-total {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: #9a8a80;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.clase.activa {
+  outline: 2px solid var(--mostaza);
+}
+
+.clase .indice.hecha { color: var(--salvia); }
+
 /* ---------- Reproductor de clase (página de acceso) ---------- */
 .video-envoltura {
   position: relative;
