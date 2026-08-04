@@ -2,13 +2,15 @@
   {
     "id": 1,
     "titulo": "Recetario",
+    "mensaje": "¡Bienvenida/o a Chef Gabi Snack Academy! Aquí tienes tu recetario en PDF con todas las recetas del curso — descárgalo o guárdalo para tenerlo siempre a mano mientras avanzas por los módulos.",
     "clases": [
       {
         "id": 1,
-        "titulo": "Bienvenida y mise en place",
-        "descripcion": "Organiza tu cocina y tus ingredientes antes de arrancar.",
-        "driveId": "171Tn9x9Iq3cPDqilK5AJ_jqqiNLABMen",
-        "duracion": "8 min"
+        "titulo": "Recetario Bocaditos Dulces y Salados",
+        "descripcion": "Todas las recetas del curso en un solo documento.",
+        "tipo": "documento",
+        "driveId": "1CAcZM2WS81QDLgRNF-gdG-xnFK-tE5Mf",
+        "duracion": ""
       }
     ]
   },
@@ -18,10 +20,38 @@
     "clases": [
       {
         "id": 1,
-        "titulo": "PON_AQUI_EL_TITULO",
-        "descripcion": "PON_AQUI_LA_DESCRIPCION",
-        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
-        "duracion": "PON_AQUI_LA_DURACION"
+        "titulo": "Masa quebrada (para pie de manzana y limón)",
+        "descripcion": "Masa base para tartas y pies dulces.",
+        "driveId": "1VzLmxqeVlvEatnv-mQKvt9_8OZqCdDII",
+        "duracion": ""
+      },
+      {
+        "id": 2,
+        "titulo": "Crema pastelera",
+        "descripcion": "Crema base para rellenos dulces.",
+        "driveId": "11QWpz_WqzAAAwawG33KR2EVqYSFbf77d",
+        "duracion": ""
+      },
+      {
+        "id": 3,
+        "titulo": "Masa Hojaldre",
+        "descripcion": "Masa base para preparaciones hojaldradas.",
+        "driveId": "1Yi72VzcCQnIWBa5kbaWIGlPeoSCKIi2y",
+        "duracion": ""
+      },
+      {
+        "id": 4,
+        "titulo": "Pasta Choux (para profiterol y relámpago)",
+        "descripcion": "Masa base para profiteroles y relámpagos.",
+        "driveId": "1EG5JX7-aHlCkwe2d6-7WdBH8J5AOyxZm",
+        "duracion": ""
+      },
+      {
+        "id": 5,
+        "titulo": "Mayonesa",
+        "descripcion": "Salsa base casera.",
+        "driveId": "1gBwsVu35ciQT4ZpJh16CIjhPHxdgD-Tc",
+        "duracion": ""
       }
     ]
   },
@@ -31,10 +61,108 @@
     "clases": [
       {
         "id": 1,
-        "titulo": "PON_AQUI_EL_TITULO",
-        "descripcion": "PON_AQUI_LA_DESCRIPCION",
-        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
-        "duracion": "PON_AQUI_LA_DURACION"
+        "titulo": "Mini Piononos",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "171Tn9x9Iq3cPDqilK5AJ_jqqiNLABMen",
+        "duracion": ""
+      },
+      {
+        "id": 2,
+        "titulo": "Mini Alfajores de Maicena",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1SGQarcBAJ8BRygKnXX3lOimpEN2FTzmS",
+        "duracion": ""
+      },
+      {
+        "id": 3,
+        "titulo": "Galletas de Manga",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1KH9nbYXYAGeDJW-tmxCEbDAtq9Boc2N_",
+        "duracion": ""
+      },
+      {
+        "id": 4,
+        "titulo": "Profiterol y Relámpago (pasta choux)",
+        "descripcion": "Hecho con la masa choux del módulo de Masas y Cremas.",
+        "driveId": "1XFTqYvF4bjwpajp4C3aFSnwBvUJLOtfS",
+        "duracion": ""
+      },
+      {
+        "id": 5,
+        "titulo": "Mini Tartaletas (masa diamante)",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1AaSaJpdN9Iq4tCgZS44g9N76rfRd9yxM",
+        "duracion": ""
+      },
+      {
+        "id": 6,
+        "titulo": "Mini Pie de Manzana (masa quebrada)",
+        "descripcion": "Hecho con la masa quebrada del módulo de Masas y Cremas.",
+        "driveId": "1NdJf5DQ6t6ptmcv2AtvqzamfRdSuSv7w",
+        "duracion": ""
+      },
+      {
+        "id": 7,
+        "titulo": "Mini Pie de Limón (masa quebrada)",
+        "descripcion": "Hecho con la masa quebrada del módulo de Masas y Cremas.",
+        "driveId": "1zjRUeuAxclllZle_qdGrPTm5oTH8kqfS",
+        "duracion": ""
+      },
+      {
+        "id": 8,
+        "titulo": "Mini Alfajores de Chocolate",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1jtaEuxE7KXOOF0jC5-0GzAOfG_X8cRZc",
+        "duracion": ""
+      },
+      {
+        "id": 9,
+        "titulo": "Mini Brownie",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1lbv7AxbbUOYZV7xHTf4NvxlYFBIKtB6Q",
+        "duracion": ""
+      },
+      {
+        "id": 10,
+        "titulo": "Mini Conitos con Manjar (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre del módulo de Masas y Cremas.",
+        "driveId": "1vqA-TQax_BB3LDchFntnRUl-U5orB-Jj",
+        "duracion": ""
+      },
+      {
+        "id": 11,
+        "titulo": "Mini Cupcakes",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1DQAQ4YC_J2hP66HjdcL11CcpTIMLziNC",
+        "duracion": ""
+      },
+      {
+        "id": 12,
+        "titulo": "Mini Milhojas (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre del módulo de Masas y Cremas.",
+        "driveId": "1Evl1eUZhPtDFW17RXXzX4kYeXXa13W2K",
+        "duracion": ""
+      },
+      {
+        "id": 13,
+        "titulo": "Mini Orejitas (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre del módulo de Masas y Cremas.",
+        "driveId": "1Ie7XKjVnF9ceznLaK3pBxyYX1mCkRSey",
+        "duracion": ""
+      },
+      {
+        "id": 14,
+        "titulo": "Nidos con Crema Pastelera (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre y la crema pastelera de Masas y Cremas.",
+        "driveId": "13FwPtwOLaJq-NFGKwd7oyK22NQybVL5J",
+        "duracion": ""
+      },
+      {
+        "id": 15,
+        "titulo": "Trufas",
+        "descripcion": "Bocadito dulce clásico.",
+        "driveId": "1Y-b9pmP9gKriSMpnmexISt4e9SXe0iJk",
+        "duracion": ""
       }
     ]
   },
@@ -44,10 +172,101 @@
     "clases": [
       {
         "id": 1,
-        "titulo": "PON_AQUI_EL_TITULO",
-        "descripcion": "PON_AQUI_LA_DESCRIPCION",
-        "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
-        "duracion": "PON_AQUI_LA_DURACION"
+        "titulo": "Alitas a la BBQ y Alitas Bouchet (salsa golf)",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "153cUBLNs3-B5u5dNJkXU_1UHI_OkRn5X",
+        "duracion": ""
+      },
+      {
+        "id": 2,
+        "titulo": "Brochetas de Pollo (crema de ají de pollería)",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1tvMVvJPxPFnGM5bSXWaHBsu_I2QB3Z_-",
+        "duracion": ""
+      },
+      {
+        "id": 3,
+        "titulo": "Empanaditas Mixtas (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre del módulo de Masas y Cremas.",
+        "driveId": "1968ufkX2e5AIMeDOP_qi1jlsxVmKHxR2",
+        "duracion": ""
+      },
+      {
+        "id": 4,
+        "titulo": "Enrollados de Hot Dog (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre del módulo de Masas y Cremas.",
+        "driveId": "15Qsxr_DbiVQI6wZCG4nu8dSnRHEr6y5q",
+        "duracion": ""
+      },
+      {
+        "id": 5,
+        "titulo": "Mini Empanadas (masa de empanadas)",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1XsJiC3zf9FemnXQjWlA-DmP9byr-rJ9s",
+        "duracion": ""
+      },
+      {
+        "id": 6,
+        "titulo": "Mini Hamburguesas",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1WLNzPFjhDmmOCl98-ZnhSm886APo7Ny7",
+        "duracion": ""
+      },
+      {
+        "id": 7,
+        "titulo": "Mini Hot Dog Empanizado / Banderillas",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1KO2JG00VHhqk4001tckA5JG-QZG0cIyK",
+        "duracion": ""
+      },
+      {
+        "id": 8,
+        "titulo": "Mini Pizzas",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "18xg3BKilKRB4zPI-TahIBRFuPZrz-1T5",
+        "duracion": ""
+      },
+      {
+        "id": 9,
+        "titulo": "Pastelitos de Acelga (masa hojaldre)",
+        "descripcion": "Hecho con la masa hojaldre del módulo de Masas y Cremas.",
+        "driveId": "10b5Szje0tLgKegejfML9nEK2VC_vWVUS",
+        "duracion": ""
+      },
+      {
+        "id": 10,
+        "titulo": "Petipan con Pollo",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1KmvGKkOxz2hwbjkXrEggCCdRQNNBvQuq",
+        "duracion": ""
+      },
+      {
+        "id": 11,
+        "titulo": "Tequeños de Lomo y Queso (crema de palta)",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "17eewKmuKp9Q-c867BY-Q93u98o-hLp7m",
+        "duracion": ""
+      },
+      {
+        "id": 12,
+        "titulo": "Mini Triples",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "15FxyE1lx6X-kSGUzgl0AOMyNxATDSmDF",
+        "duracion": ""
+      },
+      {
+        "id": 13,
+        "titulo": "Bolitas de Causa",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1zMWSaGtFD2yNhWrT4KiR8uJM0iOU56Jl",
+        "duracion": ""
+      },
+      {
+        "id": 14,
+        "titulo": "Mini Quiché",
+        "descripcion": "Bocadito salado clásico.",
+        "driveId": "1Z-jprSLRiM5fBScdjf8W3FsYGLFP79-i",
+        "duracion": ""
       }
     ]
   },
@@ -60,7 +279,7 @@
         "titulo": "PON_AQUI_EL_TITULO",
         "descripcion": "PON_AQUI_LA_DESCRIPCION",
         "driveId": "PON_AQUI_EL_LINK_O_ID_DEL_VIDEO",
-        "duracion": "PON_AQUI_LA_DURACION"
+        "duracion": ""
       }
     ]
   }
