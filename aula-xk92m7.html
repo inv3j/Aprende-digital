@@ -20,26 +20,33 @@
 
 <main class="envoltura" style="padding-bottom:60px;">
   <span class="eyebrow">Tu aula</span>
-  <h1 style="font-family:var(--display); font-size:clamp(28px,4vw,40px); margin:14px 0 24px;">Tus módulos</h1>
+  <h1 style="font-family:var(--display); font-size:clamp(28px,4vw,40px); margin:14px 0 18px;">Tus módulos</h1>
 
-  <div class="aula-layout">
-    <nav class="panel-modulos" id="panel-modulos">
-      <p style="color:#9a8a80; font-size:14px;">Cargando módulos...</p>
-    </nav>
+  <nav class="panel-modulos" id="panel-modulos">
+    <p style="color:#9a8a80; font-size:14px;">Cargando módulos...</p>
+  </nav>
 
-    <div class="contenido-modulo">
-      <h2 id="titulo-modulo-activo">—</h2>
-      <span class="cuenta-total" id="cuenta-total-modulo"></span>
+  <div class="contenido-modulo">
+    <p class="migas" id="migas"></p>
+    <h2 id="titulo-modulo-activo">—</h2>
+    <span class="cuenta-total" id="cuenta-total-modulo"></span>
 
-      <div id="reproductor" style="display:none; margin-bottom:30px;">
-        <h3 id="titulo-reproductor" style="font-family:var(--display); font-size:18px; margin-bottom:14px;"></h3>
-        <div class="video-envoltura">
-          <iframe id="iframe-video" src="" allow="autoplay" allowfullscreen></iframe>
-        </div>
+    <div class="mensaje-modulo" id="mensaje-modulo"></div>
+
+    <div id="reproductor" style="display:none;">
+      <h3 id="titulo-reproductor" style="font-family:var(--display); font-size:18px; margin-bottom:14px;"></h3>
+      <div class="video-envoltura" id="envoltura-video">
+        <iframe id="iframe-video" src="" allow="autoplay" allowfullscreen></iframe>
       </div>
 
-      <div class="lista-clases" id="lista-clases"></div>
+      <div class="nav-clases">
+        <button id="btn-anterior" class="boton-nav">‹ Anterior</button>
+        <button id="btn-siguiente" class="boton-nav boton-nav-primario">Siguiente ›</button>
+      </div>
     </div>
+
+    <p class="titulo-lista">Todo el contenido de este módulo</p>
+    <div class="lista-clases" id="lista-clases"></div>
   </div>
 </main>
 
