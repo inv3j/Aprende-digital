@@ -448,6 +448,14 @@ a { color: inherit; }
   border: 0;
 }
 
+.video-envoltura iframe:fullscreen,
+.video-envoltura iframe:-webkit-full-screen {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
 .video-envoltura.documento {
   padding-top: 130%;
   background: #fff;
