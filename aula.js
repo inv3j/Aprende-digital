@@ -108,6 +108,7 @@ function mostrarContenido(claseId) {
   titulo.textContent = clase.titulo;
   iframe.src = `https://drive.google.com/file/d/${id}/preview`;
   envoltura.classList.toggle('documento', clase.tipo === 'documento');
+  envoltura.classList.toggle('vertical', clase.vertical === true);
   reproductor.style.display = 'block';
 
   // Migas de pan: "Módulo X de Y · Nombre — Clase N de Total"
